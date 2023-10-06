@@ -16,6 +16,7 @@
 		09AFAC102ACE27AA009F2673 /* FeedItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFAC0F2ACE27AA009F2673 /* FeedItemMapper.swift */; };
 		09AFAC132ACE55DD009F2673 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFAC122ACE55DD009F2673 /* URLSessionHTTPClientTests.swift */; };
 		09C64FCA2ACF3F930057E9A3 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C64FC92ACF3F930057E9A3 /* XCTestCase+MemoryLeakTracking.swift */; };
+		09C64FCC2AD086E80057E9A3 /* URLSession+HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C64FCB2AD086E80057E9A3 /* URLSession+HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		09AFAC0F2ACE27AA009F2673 /* FeedItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemMapper.swift; sourceTree = "<group>"; };
 		09AFAC122ACE55DD009F2673 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		09C64FC92ACF3F930057E9A3 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
+		09C64FCB2AD086E80057E9A3 /* URLSession+HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+HTTPClient.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				09AFAC0B2ACC5D67009F2673 /* RemoteFeedLoader.swift */,
 				09AFAC0D2ACE2760009F2673 /* HTTPClient.swift */,
 				09AFAC0F2ACE27AA009F2673 /* FeedItemMapper.swift */,
+				09C64FCB2AD086E80057E9A3 /* URLSession+HTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				09660A972ACBA0E50035DF25 /* FeedLoader.swift in Sources */,
 				09AFAC102ACE27AA009F2673 /* FeedItemMapper.swift in Sources */,
 				09AFAC0C2ACC5D67009F2673 /* RemoteFeedLoader.swift in Sources */,
+				09C64FCC2AD086E80057E9A3 /* URLSession+HTTPClient.swift in Sources */,
 				09AFAC0E2ACE2760009F2673 /* HTTPClient.swift in Sources */,
 				09660A952ACB9FDE0035DF25 /* FeedItem.swift in Sources */,
 			);
